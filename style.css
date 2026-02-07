@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; margin: 0; font-family: Arial; overflow: hidden;
+}
+.container {
+    background: white; padding: 30px; border-radius: 20px;
+    text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 320px; position: relative;
+}
+.profile-pic {
+    width: 120px; height: 120px; border-radius: 50%;
+    object-fit: cover; border: 3px solid #ff758c; margin-bottom: 15px;
+}
+.buttons { display: flex; justify-content: space-around; height: 50px; margin-top: 20px; }
+button { padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; }
+#yesBtn { background: #ff4757; color: white; }
+#noBtn { background: #747d8c; color: white; position: absolute; }
+.hidden { display: none; }
