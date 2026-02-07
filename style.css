@@ -1,19 +1,65 @@
 body {
     background: linear-gradient(135deg, #ff7eb3, #ff758c);
-    display: flex; justify-content: center; align-items: center;
-    height: 100vh; margin: 0; font-family: Arial; overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    overflow: hidden;
 }
+
 .container {
-    background: white; padding: 30px; border-radius: 20px;
-    text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    width: 320px; position: relative;
+    background: white; 
+    padding: 30px; 
+    border-radius: 20px;
+    text-align: center; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 350px; 
+    position: relative;
 }
+
 .profile-pic {
-    width: 120px; height: 120px; border-radius: 50%;
-    object-fit: cover; border: 3px solid #ff758c; margin-bottom: 15px;
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 4px solid #ff758c; 
+    margin-bottom: 15px;
 }
-.buttons { display: flex; justify-content: space-around; height: 50px; margin-top: 20px; }
-button { padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; }
+
+.quote {
+    font-style: italic;
+    color: #d63384;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.personal-msg {
+    color: #444;
+    font-size: 1em;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.buttons { 
+    display: flex; 
+    justify-content: space-around; 
+    height: 50px; 
+}
+
+button { 
+    padding: 10px 25px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+
 #yesBtn { background: #ff4757; color: white; }
 #noBtn { background: #747d8c; color: white; position: absolute; }
+
 .hidden { display: none; }
+
+#congrats-screen h1 { color: #ff4757; }
+#congrats-screen h2 { color: #d63384; margin-top: 10px; }

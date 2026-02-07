@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be My Valentine?</title>
+    <title>A Special Question for You</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="myAudio" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="container">
         <div id="question-screen">
             <img src="myphoto.jpg" alt="Photo" class="profile-pic"> 
+            
             <h1>Hey My Love 💖</h1>
-            <p>Will you be my Valentine? ❤️</p>
+            
+            <p class="quote">"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."</p>
+            
+            <p class="personal-msg">
+                Tum meri life ka sabse beautiful part ho. Kya tum hamesha mere saath rahogi?
+            </p>
+
+            <h2>Will you be my Valentine? ❤️</h2>
+            
             <div class="buttons">
                 <button id="yesBtn">Yes ❤️</button>
                 <button id="noBtn">No 💔</button>
             </div>
         </div>
+
         <div id="congrats-screen" class="hidden">
-            <h1>CONGRATULATIONS 🎉</h1>
+            <h1>YAYYY! 🎉</h1>
             <h2>💖 The Valentine of Amit 💖</h2>
-            <p>Happy Valentine's Day!</p>
+            <p>I promise to make you smile every single day! ❤️</p>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
